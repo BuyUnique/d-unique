@@ -51,26 +51,27 @@ header {
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
 }
 
 .content-container > div {
     margin-left: 35px;
+    width: 1425px;
+    margin-top: 50px;
 }
 
 .content-container > div > h2 {
     color: rgb(17, 68, 17);
+    margin: 0;
 }
 
 .content-container > div > div {
     display: flex;
     flex-wrap: wrap;
-    width: 1425px;
 }
 
 .content-container > div > div > .new-year-container {
     width: 250px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-right: 35px;
     display: flex;
     align-items: center;
@@ -148,7 +149,6 @@ header {
 }
 
 .content-container > div > div > .new-year-container > .dekor-text {
-    width: 250px;
     text-align: center;
     line-height: 25px;
 }
@@ -159,19 +159,19 @@ header {
 }
 
 @media only screen and (max-width: 1460px) {
-    .content-container > div > div {
-        width: 1311px;
+    .content-container > div {
+        width: 1140px;
     }
 }
 
 @media only screen and (max-width: 1175px) {
-    .content-container > div > div {
+    .content-container > div {
         width: 855px;
     }
 }
 
 @media only screen and (max-width: 890px) {
-    .content-container > div > div {
+    .content-container > div {
         width: 570px;
     }
 }
@@ -179,9 +179,6 @@ header {
 @media only screen and (max-width: 605px) {
     .content-container > div {
         margin-left: 0;
-    }
-
-    .content-container > div > div {
         width: 250px;
     }
 
